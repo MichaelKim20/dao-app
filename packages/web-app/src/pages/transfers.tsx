@@ -3,7 +3,7 @@ import * as Locales from 'date-fns/locale';
 import {format, Locale} from 'date-fns';
 import {useTranslation} from 'react-i18next';
 import {withTransaction} from '@elastic/apm-rum-react';
-import {Option, ButtonGroup, SearchInput, IconAdd} from '@aragon/ui-components';
+import {Option, ButtonGroup, SearchInput, IconAdd} from '@bosagora/ui-components';
 import React, {useCallback, useMemo, useState} from 'react';
 
 import {Transfer} from 'utils/types';

@@ -1,4 +1,4 @@
-import {ProposalStatus, VoteValues} from '@aragon/sdk-client';
+import {ProposalStatus, VoteValues} from '@bosagora/sdk-client';
 import {
   AlertCard,
   AlertInline,
@@ -12,9 +12,9 @@ import {
   SearchInput,
   VotersTable,
   VoterType,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 
-import {shortenAddress} from '@aragon/ui-components/src/utils/addresses';
+import {shortenAddress} from '@bosagora/ui-components/src/utils/addresses';
 import React, {useMemo, useState} from 'react';
 import {useTranslation} from 'react-i18next';
 import styled from 'styled-components';

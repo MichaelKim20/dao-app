@@ -3,7 +3,7 @@ import {
   ButtonText,
   IconAdd,
   IconLinkExternal,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import styled from 'styled-components';

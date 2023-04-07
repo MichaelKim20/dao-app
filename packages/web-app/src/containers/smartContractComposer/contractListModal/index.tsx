@@ -6,7 +6,7 @@ import {
   IconHome,
   IconMenuVertical,
   ListItemAction,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React from 'react';
 import {useFormContext, useWatch} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';

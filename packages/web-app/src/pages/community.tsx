@@ -4,7 +4,7 @@ import {
   IconLinkExternal,
   Pagination,
   SearchInput,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {withTransaction} from '@elastic/apm-rum-react';
 import React, {useState} from 'react';
 import {useTranslation} from 'react-i18next';

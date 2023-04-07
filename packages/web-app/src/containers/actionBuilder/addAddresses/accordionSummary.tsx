@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {useTranslation} from 'react-i18next';
 import {AccordionMethodType, AccordionType} from 'components/accordionMethod';
-import {IconLinkExternal, Link} from '@aragon/ui-components';
+import {IconLinkExternal, Link} from '@bosagora/ui-components';
 
 type AccordionSummaryPropsType = {
   type?: AccordionMethodType['type'];

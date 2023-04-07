@@ -1,4 +1,4 @@
-import {ProposalStatus} from '@aragon/sdk-client';
+import {ProposalStatus} from '@bosagora/sdk-client';
 import {
   ButtonGroup,
   ButtonText,
@@ -6,7 +6,7 @@ import {
   IconChevronDown,
   Option,
   Spinner,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {withTransaction} from '@elastic/apm-rum-react';
 import React, {useEffect, useState} from 'react';
 import {useTranslation} from 'react-i18next';

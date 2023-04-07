@@ -1,8 +1,8 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import {generatePath, useNavigate} from 'react-router-dom';
-import {MultisigVotingSettings} from '@aragon/sdk-client';
-import {Link} from '@aragon/ui-components';
+import {MultisigVotingSettings} from '@bosagora/sdk-client';
+import {Link} from '@bosagora/ui-components';
 
 import {Dd, DescriptionListContainer, Dl, Dt} from 'components/descriptionList';
 import {useNetwork} from 'context/network';

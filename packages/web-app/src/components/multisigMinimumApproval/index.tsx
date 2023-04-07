@@ -1,4 +1,4 @@
-import {AlertInlineProps, Label} from '@aragon/ui-components';
+import {AlertInlineProps, Label} from '@bosagora/ui-components';
 import React, {useCallback, useEffect} from 'react';
 import {
   Controller,

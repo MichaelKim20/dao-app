@@ -1,5 +1,5 @@
-import {MultisigProposalListItem} from '@aragon/sdk-client';
-import {CardProposal, CardProposalProps, Spinner} from '@aragon/ui-components';
+import {MultisigProposalListItem} from '@bosagora/sdk-client';
+import {CardProposal, CardProposalProps, Spinner} from '@bosagora/ui-components';
 import {BigNumber} from 'ethers';
 import React, {useMemo} from 'react';
 import {TFunction, useTranslation} from 'react-i18next';

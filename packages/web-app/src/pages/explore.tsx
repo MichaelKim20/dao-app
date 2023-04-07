@@ -1,7 +1,7 @@
 // TODO: Remove when statistics are available
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import {SupportedNetworksArray, SupportedNetworks} from '@aragon/sdk-client';
+import {SupportedNetworksArray, SupportedNetworks} from '@bosagora/sdk-client';
 import React, {useEffect} from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import styled from 'styled-components';

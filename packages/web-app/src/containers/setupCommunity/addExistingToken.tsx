@@ -4,7 +4,7 @@ import {
   Link,
   SearchInput,
   TextInput,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React, {useCallback, useEffect, useMemo} from 'react';
 import {Controller, useFormContext, useWatch} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';

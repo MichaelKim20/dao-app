@@ -12,7 +12,7 @@ import {
   MultisigClient,
   MultisigPluginInstallParams,
   SupportedNetworks as sdkSupportedNetworks,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import {parseUnits} from 'ethers/lib/utils';
 import React, {createContext, useCallback, useContext, useState} from 'react';
 import {useFormContext} from 'react-hook-form';

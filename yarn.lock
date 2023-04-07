@@ -171,13 +171,6 @@
   dependencies:
     "@apollographql/graphql-language-service-types" "^2.0.0"
 
-"@aragon/osx-ethers@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@aragon/osx-ethers/-/osx-ethers-1.2.1.tgz#a442048137153ed5a3ca4eff3f3927b45a5134b5"
-  integrity sha512-3Fscq8C9elIktiI6OT7fR5iaAvim+ghU6IUvZF3P/phvWm9roNp/GXAROhA/Vx41NQxeqmfXokgFo6KOWt4drA==
-  dependencies:
-    ethers "^5.6.2"
-
 "@aragon/provided-connector@^6.0.8":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@aragon/provided-connector/-/provided-connector-6.0.8.tgz#5d22ccb2a0ff599fbe6c23fdf96cb06d59ff2716"
@@ -186,38 +179,6 @@
     "@web3-react/abstract-connector" "^6.0.7"
     "@web3-react/types" "^6.0.7"
     tiny-warning "^1.0.3"
-
-"@aragon/sdk-client@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@aragon/sdk-client/-/sdk-client-1.3.1.tgz#b795292accf998f1bd4228dd32036f2034b0044a"
-  integrity sha512-J43xRUre3d2wBHNLDROEzwbsER8YsEw5rD9OVPzddOaSWRZf4n0kH3Bp3U6n3cTbbA55gWZFvMwLGJ2K3TJZ1w==
-  dependencies:
-    "@aragon/osx-ethers" "^1.2.1"
-    "@aragon/sdk-common" "^1.1.0"
-    "@aragon/sdk-ipfs" "^1.0.0"
-    "@ethersproject/abstract-signer" "^5.5.0"
-    "@ethersproject/bignumber" "^5.6.0"
-    "@ethersproject/constants" "^5.6.0"
-    "@ethersproject/contracts" "^5.5.0"
-    "@ethersproject/providers" "^5.5.0"
-    "@ethersproject/wallet" "^5.6.0"
-    graphql "^16.5.0"
-    graphql-request "^4.3.0"
-
-"@aragon/sdk-common@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@aragon/sdk-common/-/sdk-common-1.1.0.tgz#90cf9b8cff3a0ffd3d27f8dc269c2c7689265fae"
-  integrity sha512-6aRzwJV/hrBgElEKLbd3QjopynXie9Xl8Re5HWwHWr+V2BtQs6pKzAmJ7xOoaZhpA8O51tg27HxoOSdXTjvYNg==
-
-"@aragon/sdk-ipfs@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@aragon/sdk-ipfs/-/sdk-ipfs-1.0.0.tgz#83586d8c8125bd73321ee18a857680319b76469a"
-  integrity sha512-2Zh+ggJW42uHlZc1fyE1TG94A34l2kf9STW2gRZ7nMtqzD71JVt9rVl454H/lENX6RG4OUP/iSVii+WI7ZGJFQ==
-  dependencies:
-    "@web-std/fetch" "^4.1.0"
-    "@web-std/file" "^3.0.2"
-    "@web-std/form-data" "^3.0.2"
-    isomorphic-unfetch "^3.1.0"
 
 "@babel/code-frame@7.10.4":
   version "7.10.4"
@@ -1630,6 +1591,47 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
+
+"@bosagora/osx-ethers@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@bosagora/osx-ethers/-/osx-ethers-1.0.0.tgz#d2c977e0b1aa1bf70e9099960615511949fcaaad"
+  integrity sha512-a0xByrbHSMOYfhYOvjcgAcw+6XRsjT1qpYyTACR7YcuorqDN35ReURUvIEkn+GvIiL+ImzKOMwCVcj21B1aLTA==
+  dependencies:
+    ethers "^5.6.2"
+
+"@bosagora/sdk-client@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@bosagora/sdk-client/-/sdk-client-1.0.0.tgz#e425d984d9b2d69a007d6b7b8fe81ea091992ff0"
+  integrity sha512-BXQTNxX142+U27pQIT7QBliocOCoZsyUhu9isPs186gPucD92g2LOrGw59BeAOk4z44dexPRDVaPWVnOl6fh+g==
+  dependencies:
+    "@bosagora/osx-ethers" "^1.0.0"
+    "@bosagora/sdk-common" "^1.0.0"
+    "@bosagora/sdk-ipfs" "^1.0.0"
+    "@ethersproject/abstract-signer" "^5.5.0"
+    "@ethersproject/bignumber" "^5.6.0"
+    "@ethersproject/constants" "^5.6.0"
+    "@ethersproject/contracts" "^5.5.0"
+    "@ethersproject/providers" "^5.5.0"
+    "@ethersproject/wallet" "^5.6.0"
+    graphql "^16.5.0"
+    graphql-request "^4.3.0"
+
+"@bosagora/sdk-common@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@bosagora/sdk-common/-/sdk-common-1.0.0.tgz#25ff0f662101acea2a69b58fcb35f6954fdb5fef"
+  integrity sha512-PLwHy5PjP09iBhCq5ZxwnoR0F6mvzjrT7jVrfVy7vnnwG3ELwSjS+ZqljH71DrmRXTqo4601P8Ya++cH1Sbyrg==
+  dependencies:
+    "@ethersproject/bytes" "^5.6.0"
+
+"@bosagora/sdk-ipfs@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@bosagora/sdk-ipfs/-/sdk-ipfs-1.0.0.tgz#e47b4a0c6268ade37816ae770c9e75363e080b9d"
+  integrity sha512-5c6BUoZ0QAFqOxEdneb29GrA0OK4I3Y0QI25tag0DAf+UWJ8BRs/s+7gyBZ/5Xv/zAy2oMUXF9baQR/A1HeyfQ==
+  dependencies:
+    "@web-std/fetch" "^4.1.0"
+    "@web-std/file" "^3.0.2"
+    "@web-std/form-data" "^3.0.2"
+    isomorphic-unfetch "^3.1.0"
 
 "@chainlink/contracts-0.0.10@npm:@chainlink/contracts@0.0.10":
   version "0.0.10"

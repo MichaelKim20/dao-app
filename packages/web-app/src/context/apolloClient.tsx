@@ -13,7 +13,7 @@ import {
   InstalledPluginListItem,
   IPluginInstallItem,
   VotingMode,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import {RestLink} from 'apollo-link-rest';
 import {CachePersistor, LocalStorageWrapper} from 'apollo3-cache-persist';
 
@@ -127,6 +127,9 @@ const client: Record<
   mumbai: mumbaiClient,
   arbitrum: undefined,
   'arbitrum-test': arbitrumTestClient,
+  bosagora: undefined,
+  athens: undefined,
+  localhost: undefined,
   unsupported: undefined,
 };
 

@@ -1,4 +1,4 @@
-import {MultisigVotingSettings} from '@aragon/sdk-client';
+import {MultisigVotingSettings} from '@bosagora/sdk-client';
 import React from 'react';
 import {useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';

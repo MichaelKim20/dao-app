@@ -6,7 +6,7 @@ import {
   Link,
   Spinner,
   WalletInput,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {isAddress} from 'ethers/lib/utils';
 import React, {useCallback, useMemo, useState} from 'react';
 import {

@@ -9,8 +9,8 @@ import {
   ButtonText,
   IconGovernance,
   ListItemLink,
-} from '@aragon/ui-components';
-import {DaoDetails} from '@aragon/sdk-client';
+} from '@bosagora/ui-components';
+import {DaoDetails} from '@bosagora/sdk-client';
 
 import MajorityVotingSettings from 'containers/settings/majorityVoting';
 import MultisigSettings from 'containers/settings/multisig';

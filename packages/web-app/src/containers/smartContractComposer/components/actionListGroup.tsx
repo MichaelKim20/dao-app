@@ -1,4 +1,4 @@
-import {IconChevronRight, ListItemAction} from '@aragon/ui-components';
+import {IconChevronRight, ListItemAction} from '@bosagora/ui-components';
 import React from 'react';
 import {useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';

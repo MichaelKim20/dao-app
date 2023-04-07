@@ -5,12 +5,12 @@ import {
   ButtonText,
   IconClose,
   IconCopy,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {useGlobalModalContext} from 'context/globalModals';
 import styled from 'styled-components';
 import {useWallet} from 'hooks/useWallet';
 import ModalBottomSheetSwitcher from 'components/modalBottomSheetSwitcher';
-import {shortenAddress} from '@aragon/ui-components/src/utils/addresses';
+import {shortenAddress} from '@bosagora/ui-components/src/utils/addresses';
 import {handleClipboardActions} from 'utils/library';
 import useScreen from 'hooks/useScreen';
 import {useTranslation, Trans} from 'react-i18next';

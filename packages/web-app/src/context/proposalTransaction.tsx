@@ -6,7 +6,7 @@ import {
   TokenVotingClient,
   VoteProposalStep,
   VoteValues,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import {BigNumber} from 'ethers';
 import React, {
   createContext,

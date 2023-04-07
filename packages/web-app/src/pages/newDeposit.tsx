@@ -1,4 +1,4 @@
-import {Address} from '@aragon/ui-components/src/utils/addresses';
+import {Address} from '@bosagora/ui-components/src/utils/addresses';
 import {withTransaction} from '@elastic/apm-rum-react';
 import React, {useEffect, useRef} from 'react';
 import {FormProvider, useForm} from 'react-hook-form';

@@ -1,9 +1,9 @@
 {
-  "name": "@aragon/apps-web",
-  "description": "Webapp to interact with Aragon Core",
+  "name": "@bosagora/apps-web",
+  "description": "Webapp to interact with BOSagora Core",
   "version": "0.1.0",
   "private": true,
-  "author": "Aragon Association",
+  "author": "BOSagora Association",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build --sourcemap true",
@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.5.8",
-    "@aragon/sdk-client": "^1.3.1",
-    "@aragon/ui-components": "^0.1.0",
+    "@bosagora/sdk-client": "^1.0.0",
+    "@bosagora/ui-components": "^0.1.0",
     "@elastic/apm-rum-react": "^1.3.1",
     "@ledgerhq/connect-kit-loader": "^1.0.2",
     "@radix-ui/react-accordion": "^0.1.6",

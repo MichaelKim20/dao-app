@@ -4,7 +4,7 @@ import {
   Dropdown,
   IconMenuVertical,
   ValueInput,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import styled from 'styled-components';
 import {useTranslation} from 'react-i18next';
 import React, {useCallback} from 'react';

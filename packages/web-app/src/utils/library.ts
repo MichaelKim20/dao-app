@@ -11,9 +11,9 @@ import {
   TokenVotingClient,
   VotingMode,
   Context as SdkContext,
-} from '@aragon/sdk-client';
-import {resolveIpfsCid} from '@aragon/sdk-common';
-import {Address} from '@aragon/ui-components/dist/utils/addresses';
+} from '@bosagora/sdk-client';
+import {resolveIpfsCid} from '@bosagora/sdk-common';
+import {Address} from '@bosagora/ui-components/dist/utils/addresses';
 import {NavigationDao} from 'context/apolloClient';
 import {BigNumber, BigNumberish, constants, ethers, providers} from 'ethers';
 import {TFunction} from 'react-i18next';
@@ -508,7 +508,7 @@ export const translateToAppNetwork = (
   }
 
   switch (sdkNetwork) {
-    case 'mainnet':
+    case 'homestead':
       return 'ethereum';
     case 'goerli':
       return 'goerli';
@@ -538,7 +538,7 @@ export function translateToNetworkishName(
     case 'mumbai':
       return 'maticmum';
     case 'ethereum':
-      return 'mainnet';
+      return 'homestead';
     case 'goerli':
       return 'goerli';
   }

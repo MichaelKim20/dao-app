@@ -6,7 +6,7 @@ import {
   IconMenuVertical,
   ButtonIcon,
   Dropdown,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {useTranslation} from 'react-i18next';
 import {useFormContext, useFieldArray, useWatch} from 'react-hook-form';
 

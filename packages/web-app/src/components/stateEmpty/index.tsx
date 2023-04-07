@@ -5,7 +5,7 @@ import {
   IllustrationHuman,
   IlluObject,
   ButtonText,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import useScreen from 'hooks/useScreen';
 import React from 'react';
 import styled from 'styled-components';
@@ -123,7 +123,7 @@ const TextWrapper = styled.div.attrs({
 })``;
 
 const ActionContainer = styled.div.attrs({
-  className: `flex w-full flex-col tablet:flex-row gap-y-1.5 tablet:gap-y-0 
+  className: `flex w-full flex-col tablet:flex-row gap-y-1.5 tablet:gap-y-0
     tablet:justify-center tablet:gap-x-3`,
 })``;
 

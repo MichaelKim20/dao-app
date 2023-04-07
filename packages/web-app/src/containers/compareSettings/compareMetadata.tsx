@@ -1,5 +1,5 @@
-import {DaoDetails} from '@aragon/sdk-client';
-import {AvatarDao, ListItemLink} from '@aragon/ui-components';
+import {DaoDetails} from '@bosagora/sdk-client';
+import {AvatarDao, ListItemLink} from '@bosagora/ui-components';
 import React from 'react';
 import {useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';

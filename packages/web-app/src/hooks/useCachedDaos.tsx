@@ -1,5 +1,5 @@
 import {useReactiveVar} from '@apollo/client';
-import {IDaoQueryParams} from '@aragon/sdk-client';
+import {IDaoQueryParams} from '@bosagora/sdk-client';
 import {
   InfiniteData,
   useInfiniteQuery,

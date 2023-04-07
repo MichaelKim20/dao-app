@@ -1,4 +1,4 @@
-import {VotingMode} from '@aragon/sdk-client';
+import {VotingMode} from '@bosagora/sdk-client';
 import React, {useMemo} from 'react';
 import {useTranslation} from 'react-i18next';
 
@@ -20,7 +20,7 @@ export const ModifyMvSettingsCard: React.FC<{
               inputs.minParticipation,
               inputs.totalVotingWeight,
               inputs.token?.decimals || 18
-            )} 
+            )}
             ${inputs.token?.symbol})`,
     [
       inputs.minParticipation,

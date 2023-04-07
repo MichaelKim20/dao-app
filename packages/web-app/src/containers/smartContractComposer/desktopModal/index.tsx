@@ -3,7 +3,7 @@ import {
   IconMenuVertical,
   ListItemAction,
   Modal,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import styled from 'styled-components';
@@ -129,7 +129,7 @@ const StyledModal = styled(Modal).attrs({
     height: '708px',
     outline: 'none',
     overflow: 'auto',
-    boxShadow: `0px 24px 32px rgba(31, 41, 51, 0.04), 
+    boxShadow: `0px 24px 32px rgba(31, 41, 51, 0.04),
        0px 16px 24px rgba(31, 41, 51, 0.04),
        0px 4px 8px rgba(31, 41, 51, 0.04),
        0px 0px 1px rgba(31, 41, 51, 0.04)`,

@@ -1,4 +1,4 @@
-import {Tag} from '@aragon/ui-components';
+import {Tag} from '@bosagora/ui-components';
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import styled from 'styled-components';

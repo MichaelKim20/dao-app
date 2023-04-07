@@ -8,8 +8,8 @@ import {
   TokenVotingProposalListItem,
   VoteValues,
   VotingSettings,
-} from '@aragon/sdk-client';
-import {Address} from '@aragon/ui-components/src/utils/addresses';
+} from '@bosagora/sdk-client';
+import {Address} from '@bosagora/ui-components/src/utils/addresses';
 
 import {TimeFilter, TransferTypes} from './constants';
 

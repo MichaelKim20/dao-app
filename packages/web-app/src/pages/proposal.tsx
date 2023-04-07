@@ -8,7 +8,7 @@ import {
   TokenVotingProposal,
   VoteValues,
   VotingMode,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import {
   Breadcrumb,
   ButtonText,
@@ -17,8 +17,8 @@ import {
   IconGovernance,
   Link,
   WidgetStatus,
-} from '@aragon/ui-components';
-import {shortenAddress} from '@aragon/ui-components/src/utils/addresses';
+} from '@bosagora/ui-components';
+import {shortenAddress} from '@bosagora/ui-components/src/utils/addresses';
 import {withTransaction} from '@elastic/apm-rum-react';
 import TipTapLink from '@tiptap/extension-link';
 import {useEditor} from '@tiptap/react';

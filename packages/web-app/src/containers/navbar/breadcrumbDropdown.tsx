@@ -1,4 +1,4 @@
-import {ButtonIcon, Dropdown, IconClose, IconMenu} from '@aragon/ui-components';
+import {ButtonIcon, Dropdown, IconClose, IconMenu} from '@bosagora/ui-components';
 import React, {useState} from 'react';
 import styled from 'styled-components';
 

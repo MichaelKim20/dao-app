@@ -2,7 +2,7 @@
 
 ## What
 
-This package contains the building block for the Zaragoza web-app. It is directly based on Aragon's design system.
+This package contains the building block for the Zaragoza web-app. It is directly based on BOSagora's design system.
 
 The package is written in typescript and powered by TSDX. The repository also contains a storybook. This allows us to publish the components in isolation, in order to visually present and document them.
 

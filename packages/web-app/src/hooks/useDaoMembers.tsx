@@ -1,4 +1,4 @@
-import {Erc20TokenDetails} from '@aragon/sdk-client';
+import {Erc20TokenDetails} from '@bosagora/sdk-client';
 import {useNetwork} from 'context/network';
 import {useSpecificProvider} from 'context/providers';
 import {useEffect, useState} from 'react';

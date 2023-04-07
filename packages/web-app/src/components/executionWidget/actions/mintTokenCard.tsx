@@ -1,4 +1,4 @@
-import {IconLinkExternal, Link, ListItemAddress} from '@aragon/ui-components';
+import {IconLinkExternal, Link, ListItemAddress} from '@bosagora/ui-components';
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import styled from 'styled-components';

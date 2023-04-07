@@ -1,5 +1,5 @@
 import React from 'react';
-import {AvatarDao, ListItemLink} from '@aragon/ui-components';
+import {AvatarDao, ListItemLink} from '@bosagora/ui-components';
 import {Controller, useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';
 

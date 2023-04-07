@@ -1,4 +1,4 @@
-import {AlertInline, ButtonText, IconAdd, Label} from '@aragon/ui-components';
+import {AlertInline, ButtonText, IconAdd, Label} from '@bosagora/ui-components';
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import styled from 'styled-components';

@@ -1,4 +1,4 @@
-import {ProposalStatus} from '@aragon/sdk-client';
+import {ProposalStatus} from '@bosagora/sdk-client';
 import {
   format,
   formatDistance,

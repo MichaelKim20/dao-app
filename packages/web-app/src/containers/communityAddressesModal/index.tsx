@@ -1,5 +1,5 @@
 import React, {useState, useCallback, useMemo} from 'react';
-import {VotersTable, SearchInput} from '@aragon/ui-components';
+import {VotersTable, SearchInput} from '@bosagora/ui-components';
 import styled from 'styled-components';
 import {useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';

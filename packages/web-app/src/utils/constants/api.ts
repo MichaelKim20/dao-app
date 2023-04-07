@@ -17,6 +17,9 @@ export const SUBGRAPH_API_URL: SubgraphNetworkUrl = {
     'https://subgraph.satsuma-prod.com/qHR2wGfc5RLi6/aragon/osx-mumbai/api',
   arbitrum: undefined,
   'arbitrum-test': undefined,
+  bosagora: undefined,
+  athens: undefined,
+  localhost: undefined,
   unsupported: undefined,
 };
 
@@ -33,6 +36,9 @@ export const alchemyApiKeys: AlchemyApiKeys = {
   goerli: undefined,
   polygon: import.meta.env.VITE_ALCHEMY_KEY_POLYGON_MAINNET as string,
   mumbai: import.meta.env.VITE_ALCHEMY_KEY_POLYGON_MUMBAI as string,
+  bosagora: undefined,
+  athens: undefined,
+  localhost: undefined,
   unsupported: undefined,
 };
 
@@ -44,7 +50,7 @@ export const IPFS_ENDPOINT_TEST =
 export const IPFS_ENDPOINT_MAIN_0 = 'https://ipfs-0.aragon.network/api/v0';
 export const IPFS_ENDPOINT_MAIN_1 = 'https://ipfs-1.aragon.network/api/v0';
 
-// using Aragon node for avatar resolving
+// using BOSagora node for avatar resolving
 export const AVATAR_IPFS_URL = 'https://ipfs.eth.aragon.network/ipfs';
 
 // Coingecko Api specific asset platform keys
@@ -55,10 +61,14 @@ export const ASSET_PLATFORMS: Record<SupportedNetworks, string | null> = {
   goerli: null,
   polygon: 'polygon-pos',
   mumbai: null,
+  bosagora: null,
+  athens: null,
+  localhost: null,
   unsupported: null,
 };
 
 export const NATIVE_TOKEN_ID = {
   default: 'ethereum',
   polygon: 'matic-network',
+  bosagora: 'boa',
 };

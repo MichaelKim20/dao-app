@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {TokenVotingClient, Erc20TokenDetails} from '@aragon/sdk-client';
+import {TokenVotingClient, Erc20TokenDetails} from '@bosagora/sdk-client';
 
 import {HookData} from 'utils/types';
 import {usePluginClient} from './usePluginClient';

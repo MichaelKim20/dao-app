@@ -1,5 +1,5 @@
 import React from 'react';
-import {ButtonIcon, ButtonText, IconClose} from '@aragon/ui-components';
+import {ButtonIcon, ButtonText, IconClose} from '@bosagora/ui-components';
 import {useGlobalModalContext} from 'context/globalModals';
 import styled from 'styled-components';
 import {useWallet} from 'hooks/useWallet';
