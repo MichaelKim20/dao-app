@@ -1,4 +1,4 @@
-import {LIVE_CONTRACTS, SupportedNetworks} from '@aragon/sdk-client';
+import {LIVE_CONTRACTS, SupportedNetworks} from '@bosagora/sdk-client';
 import {JsonRpcProvider} from '@ethersproject/providers';
 import {SignerValue, useSigner} from 'context/signer';
 import {BigNumber} from 'ethers';

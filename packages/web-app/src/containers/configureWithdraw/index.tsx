@@ -3,7 +3,7 @@ import {
   DropdownInput,
   Label,
   ValueInput,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 
 import {useApolloClient} from '@apollo/client';
 import React, {useCallback, useEffect} from 'react';

@@ -5,7 +5,7 @@ import {
   CardTransfer,
   IconChevronLeft,
   IconChevronRight,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React, {useEffect, useState} from 'react';
 import {useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';

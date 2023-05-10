@@ -1,10 +1,10 @@
-import {DaoDetails, MultisigVotingSettings} from '@aragon/sdk-client';
+import {DaoDetails, MultisigVotingSettings} from '@bosagora/sdk-client';
 import {
   AlertInline,
   ButtonText,
   IconGovernance,
   ListItemAction,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React, {useCallback, useEffect, useMemo} from 'react';
 import {
   useFieldArray,

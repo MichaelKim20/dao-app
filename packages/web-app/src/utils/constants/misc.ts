@@ -5,7 +5,7 @@ import {
   IconGovernance,
   IconType,
   IconSettings,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {BigNumber} from 'ethers';
 
 import {i18n} from '../../../i18n.config';

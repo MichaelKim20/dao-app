@@ -1,6 +1,6 @@
 import {useReactiveVar} from '@apollo/client';
-import {DaoDetails} from '@aragon/sdk-client';
-import {resolveIpfsCid} from '@aragon/sdk-common';
+import {DaoDetails} from '@bosagora/sdk-client';
+import {resolveIpfsCid} from '@bosagora/sdk-common';
 import {useEffect, useState} from 'react';
 
 import {favoriteDaosVar, pendingDaoCreationVar} from 'context/apolloClient';

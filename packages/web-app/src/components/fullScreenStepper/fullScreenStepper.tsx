@@ -4,7 +4,7 @@ import {
   ButtonText,
   IconChevronRight,
   Breadcrumb,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React, {createContext, useContext, useEffect, useMemo} from 'react';
 import {useTranslation} from 'react-i18next';
 import {useNavigate} from 'react-router-dom';

@@ -4,7 +4,7 @@ import {
   DropdownInput,
   Label,
   ValueInput,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {
   Controller,
   useFormContext,

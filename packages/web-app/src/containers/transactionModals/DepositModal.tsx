@@ -4,7 +4,7 @@ import {
   IconReload,
   LinearProgress,
   Spinner,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import ModalBottomSheetSwitcher from 'components/modalBottomSheetSwitcher';
 import {useNetwork} from 'context/network';
 import React, {useEffect, useMemo, useState} from 'react';

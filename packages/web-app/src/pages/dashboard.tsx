@@ -6,7 +6,7 @@ import {
   IconSpinner,
   IlluObject,
   IllustrationHuman,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {withTransaction} from '@elastic/apm-rum-react';
 import React, {useCallback, useEffect, useMemo, useState} from 'react';
 import {useTranslation} from 'react-i18next';

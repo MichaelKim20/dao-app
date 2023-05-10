@@ -47,7 +47,7 @@ jobs:
       - name: Install depdendencies
         run: yarn install --pure-lockfile
       - name: Link ui-components
-        run: yarn link @aragon/ui-components
+        run: yarn link @bosagora/ui-components
       # - name: Lint
       #   run: yarn lint
       - name: Build

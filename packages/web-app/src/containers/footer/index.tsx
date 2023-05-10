@@ -1,4 +1,4 @@
-import {IconInfo, Link} from '@aragon/ui-components';
+import {IconInfo, Link} from '@bosagora/ui-components';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
                 <FlexDiv>
                   <StyledNavList>{PrivacyNavLinks}</StyledNavList>
                   <Copyright>
-                    &copy;{`  ${new Date().getFullYear()}  `}Aragon
+                    &copy;{`  ${new Date().getFullYear()}  `}BOSagora
                   </Copyright>
                 </FlexDiv>
               </>
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
                 <StyledNavList>{ExploreNavLinks}</StyledNavList>
                 <StyledNavList>{PrivacyNavLinks}</StyledNavList>
                 <Copyright>
-                  &copy;{`  ${new Date().getFullYear()}  `}Aragon
+                  &copy;{`  ${new Date().getFullYear()}  `}BOSagora
                 </Copyright>
               </>
             )}
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
         }`}
       >
         <IconInfo />
-        <span>Aragon App Public Beta</span>
+        <span>BOSagora App Public Beta</span>
       </div>
     </Section>
   );

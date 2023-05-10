@@ -1,5 +1,5 @@
 import React from 'react';
-import {TransferListItem} from '@aragon/ui-components';
+import {TransferListItem} from '@bosagora/ui-components';
 import {useTranslation} from 'react-i18next';
 import {Transfer} from 'utils/types';
 import {abbreviateTokenAmount} from 'utils/tokens';

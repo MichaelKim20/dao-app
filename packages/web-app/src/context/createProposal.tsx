@@ -11,7 +11,7 @@ import {
   TokenVotingClient,
   VotingSettings,
   WithdrawParams,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import React, {useCallback, useEffect, useMemo, useState} from 'react';
 import {useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';

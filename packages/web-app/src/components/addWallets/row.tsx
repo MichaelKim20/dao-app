@@ -8,7 +8,7 @@ import {
   NumberInput,
   TextInput,
   ValueInput,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import Big from 'big.js';
 import {constants} from 'ethers';
 import React, {useState} from 'react';

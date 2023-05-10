@@ -1,7 +1,7 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
-import {Breadcrumb, ButtonText, IconChevronRight} from '@aragon/ui-components';
-import {IlluObject} from '@aragon/ui-components/src/components/illustrations';
+import {Breadcrumb, ButtonText, IconChevronRight} from '@bosagora/ui-components';
+import {IlluObject} from '@bosagora/ui-components/src/components/illustrations';
 import styled from 'styled-components';
 import {useNavigate} from 'react-router-dom';
 

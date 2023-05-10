@@ -2,7 +2,9 @@
 
 import {infuraApiKey} from './api';
 
-export const SUPPORTED_CHAIN_ID = [1, 5, 137, 80001, 42161, 421613] as const;
+export const SUPPORTED_CHAIN_ID = [
+  1, 5, 137, 1337, 2019, 2151, 80001, 42161, 421613,
+] as const;
 export type SupportedChainID = typeof SUPPORTED_CHAIN_ID[number];
 
 export function isSupportedChainId(
@@ -18,9 +20,19 @@ const SUPPORTED_NETWORKS = [
   'mumbai',
   'arbitrum',
   'arbitrum-test',
+  'mainnet',
+  'testnet',
+  'localhost',
 ] as const;
 
-export type availableNetworks = 'mainnet' | 'goerli' | 'polygon' | 'mumbai';
+export type availableNetworks =
+  | 'ethereum'
+  | 'goerli'
+  | 'polygon'
+  | 'mumbai'
+  | 'mainnet'
+  | 'testnet'
+  | 'localhost';
 
 export type SupportedNetworks =
   | typeof SUPPORTED_NETWORKS[number]
@@ -178,6 +190,51 @@ export const CHAIN_METADATA: ChainList = {
       decimals: 18,
     },
     etherscanApi: 'https://api-testnet.polygonscan.com/api',
+  },
+  mainnet: {
+    id: 2151,
+    name: 'BOSagora Mainnet',
+    domain: 'L1 Blockchain',
+    logo: 'https://file.bosagora.io/bosagora.png',
+    explorer: 'https://www.boascan.io/',
+    testnet: true,
+    rpc: ['https://mainnet.bosagora.org'],
+    nativeCurrency: {
+      name: 'BOA',
+      symbol: 'BOA',
+      decimals: 18,
+    },
+    etherscanApi: '',
+  },
+  testnet: {
+    id: 2019,
+    name: 'BOSagora Testnet',
+    domain: 'L1 Blockchain',
+    logo: 'https://file.bosagora.io/bosagora.png',
+    explorer: 'https://testnet.boascan.io/',
+    testnet: true,
+    rpc: ['https://testnet.bosagora.org'],
+    nativeCurrency: {
+      name: 'BOA',
+      symbol: 'BOA',
+      decimals: 18,
+    },
+    etherscanApi: '',
+  },
+  localhost: {
+    id: 1337,
+    name: 'Localhost',
+    domain: 'L2 Blockchain',
+    logo: 'https://file.bosagora.io/bosagora.png',
+    explorer: '',
+    testnet: true,
+    rpc: ['http://localhost:8485'],
+    nativeCurrency: {
+      name: 'BOA',
+      symbol: 'BOA',
+      decimals: 18,
+    },
+    etherscanApi: '',
   },
   unsupported: {
     id: 1,

@@ -58,7 +58,7 @@ jobs:
         run: |
           cd packages/web-app
           yarn install --pure-lockfile
-          yarn link @aragon/ui-components
+          yarn link @bosagora/ui-components
 
       # - name: Run Lint and Test web-app
       #   run: |

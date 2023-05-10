@@ -1,4 +1,4 @@
-import {CardProposalProps} from '@aragon/ui-components';
+import {CardProposalProps} from '@bosagora/ui-components';
 
 /**
  * Stub hook for querying subgraph to get dao proposals
@@ -14,7 +14,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'pending',
     title: 'New Founding for Lorex Lab SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 70,
     voteLabel: 'Yes',
@@ -36,7 +36,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'active',
     title: 'Convert Nature Lovers Guild to Druids SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 33,
     voteLabel: 'Yes',
@@ -56,9 +56,9 @@ const MOCK_PROPOSALS: MockProposal[] = [
   },
   {
     process: 'succeeded',
-    title: 'Aragon Court deployment on Arbitrum',
+    title: 'BOSagora Court deployment on Arbitrum',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 70,
     voteLabel: 'Yes',
@@ -102,7 +102,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'defeated',
     title: 'New Founding for New Canines SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 70,
     voteLabel: 'Yes',
@@ -124,7 +124,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'active',
     title: 'Convert Nature Lovers Guild to Druids SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 33,
     voteLabel: 'Yes',
@@ -146,7 +146,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'executed',
     title: 'Grant 185k to Tree Lovers SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 70,
     voteLabel: 'Yes',
@@ -169,7 +169,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'active',
     title: 'Convert Nature Lovers Guild to Druids SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 70,
     voteLabel: 'Yes',
@@ -191,7 +191,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'active',
     title: 'Convert Nature Lovers Guild to Druids SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 24,
     voteLabel: 'Yes',
@@ -213,7 +213,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'active',
     title: 'Convert Nature Lovers Guild to Druids SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 33,
     voteLabel: 'Yes',
@@ -235,7 +235,7 @@ const MOCK_PROPOSALS: MockProposal[] = [
     process: 'active',
     title: 'Convert Nature Lovers Guild to Druids SubDao',
     description:
-      'As most community members know, Aragon has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
+      'As most community members know, BOSagora has strived to deploy its products to more cost-efficient blockchain networks to facilitate ...',
     voteTitle: 'Winning Option',
     voteProgress: 33,
     voteLabel: 'Yes',

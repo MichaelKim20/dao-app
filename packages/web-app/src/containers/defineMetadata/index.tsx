@@ -4,7 +4,7 @@ import {
   Label,
   TextareaSimple,
   TextInput,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React, {useCallback} from 'react';
 import {Controller, FieldError, useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';
@@ -35,7 +35,7 @@ const DefineMetadata: React.FC<DefineMetadataProps> = ({
   isSettingPage,
 }) => {
   const {t} = useTranslation();
-  const {isL2Network} = useNetwork();
+  const {isL2Network, isBOSagoraNetwork} = useNetwork();
   const {control, setError, clearErrors, getValues} = useFormContext();
   const {infura: provider} = useProviders();
 
@@ -126,7 +126,7 @@ const DefineMetadata: React.FC<DefineMetadataProps> = ({
       </FormItem>
 
       {/* ENS Ens Name */}
-      {!isSettingPage && !isL2Network && (
+      {!isSettingPage && !isL2Network && !isBOSagoraNetwork && (
         <FormItem>
           <Label
             label={t('labels.daoEnsName')}

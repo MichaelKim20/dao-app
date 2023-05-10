@@ -13,7 +13,7 @@ import {
   InstalledPluginListItem,
   IPluginInstallItem,
   VotingMode,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import {RestLink} from 'apollo-link-rest';
 import {CachePersistor, LocalStorageWrapper} from 'apollo3-cache-persist';
 
@@ -116,6 +116,16 @@ const arbitrumTestClient = new ApolloClient({
   link: restLink.concat(new HttpLink({uri: SUBGRAPH_API_URL['arbitrum-test']})),
 });
 
+const mainnetClient = new ApolloClient({
+  cache,
+  link: restLink.concat(new HttpLink({uri: SUBGRAPH_API_URL['mainnet']})),
+});
+
+const testnetClient = new ApolloClient({
+  cache,
+  link: restLink.concat(new HttpLink({uri: SUBGRAPH_API_URL['testnet']})),
+});
+
 // TODO: remove undefined when all clients are defined
 const client: Record<
   SupportedNetworks,
@@ -127,6 +137,9 @@ const client: Record<
   mumbai: mumbaiClient,
   arbitrum: undefined,
   'arbitrum-test': arbitrumTestClient,
+  mainnet: mainnetClient,
+  testnet: testnetClient,
+  localhost: undefined,
   unsupported: undefined,
 };
 

@@ -4,13 +4,13 @@ import {
   CheckboxListItem,
   ButtonText,
   CheckboxSimple,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import styled from 'styled-components';
 import {useTranslation} from 'react-i18next';
 
 import ModalBottomSheetSwitcher from 'components/modalBottomSheetSwitcher';
 import {useGlobalModalContext} from 'context/globalModals';
-import {shortenAddress} from '@aragon/ui-components/src/utils/addresses';
+import {shortenAddress} from '@bosagora/ui-components/src/utils/addresses';
 
 type ManageWalletsModalProps = {
   addWalletCallback: (wallets: Array<string>) => void;

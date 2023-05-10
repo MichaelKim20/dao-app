@@ -7,7 +7,7 @@ import {
   ProposalMetadata,
   VotingMode,
   VotingSettings,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import {withTransaction} from '@elastic/apm-rum-react';
 import React, {useCallback, useEffect, useState} from 'react';
 import {useFormContext, useFormState} from 'react-hook-form';

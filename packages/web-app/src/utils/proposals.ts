@@ -21,8 +21,12 @@ import {
   VoteValues,
   VotingMode,
   VotingSettings,
-} from '@aragon/sdk-client';
-import {ModeType, ProgressStatusProps, VoterType} from '@aragon/ui-components';
+} from '@bosagora/sdk-client';
+import {
+  ModeType,
+  ProgressStatusProps,
+  VoterType,
+} from '@bosagora/ui-components';
 import Big from 'big.js';
 import {format, formatDistanceToNow, Locale} from 'date-fns';
 import differenceInSeconds from 'date-fns/fp/differenceInSeconds';

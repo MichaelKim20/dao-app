@@ -1,11 +1,11 @@
-import {DaoSortBy} from '@aragon/sdk-client';
+import {DaoSortBy} from '@bosagora/sdk-client';
 import {
   ButtonGroup,
   ButtonText,
   IconChevronDown,
   Option,
   Spinner,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {UseInfiniteQueryResult} from '@tanstack/react-query';
 import React, {useEffect, useMemo, useState} from 'react';
 import {useTranslation} from 'react-i18next';

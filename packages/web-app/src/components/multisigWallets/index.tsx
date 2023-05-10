@@ -6,7 +6,7 @@ import {
   IconMenuVertical,
   Label,
   ListItemAction,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {useAlertContext} from 'context/alert';
 import useScreen from 'hooks/useScreen';
 import {useWallet} from 'hooks/useWallet';

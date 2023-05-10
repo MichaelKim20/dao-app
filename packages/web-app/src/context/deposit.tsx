@@ -4,7 +4,7 @@ import {
   TokenType,
   TransferType,
   UpdateAllowanceParams,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import React, {
   createContext,
   ReactNode,

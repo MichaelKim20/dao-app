@@ -202,7 +202,7 @@
     "minimumApprovalAdditionalInfo": "When new wallets gets added or removed to the Multisig DAO, you have to review the Minimum Approval.",
     "minimumApprovalProgressInfo": "of {{amount}} addresses",
     "anyWallet": "Any wallet",
-    "aragonOSx": "Aragon OSx",
+    "aragonOSx": "BOSagora OSx",
     "disconnectWallet": "Disconnect wallet",
     "submitProposal": "Publish proposal",
     "addWalletsDescriptionLinkLabel": "read our guide",
@@ -469,7 +469,7 @@
     "noAddresses": "No address found"
   },
   "TransactionModal": {
-    "approveSubtitle": "To sign your first transaction, you must approve Aragon App in your wallet.",
+    "approveSubtitle": "To sign your first transaction, you must approve BOSagora App in your wallet.",
     "approveToken": "Approve token",
     "depositTitle": "Sign deposit",
     "goToFinance": "Go to Finance",
@@ -622,7 +622,7 @@
       "walletMemberShipSubtitle": "Allowlist wallet addresses of trusted members, so voting is 1 wallet = 1 vote. Allowlisted wallets can also create proposals. ",
       "nameSubtitle": "The full name of the token. Example: Uniswap",
       "symbolSubtitle": "The abbreviation of the token. Example: UNI",
-      "addExistingTokenHelptext": "We don't currently support existing tokens in Aragon App. ",
+      "addExistingTokenHelptext": "We don't currently support existing tokens in BOSagora App. ",
       "tokenHelptextLink": "token distribution guide",
       "tokenContractSubtitlePart1": "Copy the contract address directly from the ",
       "tokenContractSubtitlePart2": "This way you can ensure that the address is correct.",
@@ -794,9 +794,9 @@
     },
     "statistics": {
       "daosCreated": "DAOs created",
-      "aragonMembers": "Members in Aragon App DAOs",
+      "aragonMembers": "Members in BOSagora App DAOs",
       "activeProposals": "Active proposals",
-      "securedByAragon": "Secured by Aragon OSx"
+      "securedByAragon": "Secured by BOSagora OSx"
     }
   },
   "privacyPolicy": {

@@ -4,7 +4,7 @@ import {
   ContextParams,
   LIVE_CONTRACTS,
   SupportedNetworksArray,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 
 import {useNetwork} from 'context/network';
 import React, {createContext, useContext, useEffect, useState} from 'react';
@@ -49,6 +49,7 @@ export const UseClientProvider: React.FC = ({children}) => {
 
   useEffect(() => {
     const translatedNetwork = translateToNetworkishName(network);
+    console.log('translatedNetwork', translatedNetwork);
 
     // when network not supported by the SDK, don't set network
     if (
@@ -61,24 +62,19 @@ export const UseClientProvider: React.FC = ({children}) => {
     let ipfsNodes = [
       {
         url: IPFS_ENDPOINT_MAIN_0,
-        headers: {
-          'X-API-KEY': (import.meta.env.VITE_IPFS_API_KEY as string) || '',
-        },
+        headers: {},
       },
       {
         url: IPFS_ENDPOINT_MAIN_1,
-        headers: {
-          'X-API-KEY': (import.meta.env.VITE_IPFS_API_KEY as string) || '',
-        },
+        headers: {},
       },
     ];
-    if (network !== 'ethereum') {
+
+    if (network !== 'mainnet') {
       ipfsNodes = [
         {
           url: IPFS_ENDPOINT_TEST,
-          headers: {
-            'X-API-KEY': (import.meta.env.VITE_IPFS_API_KEY as string) || '',
-          },
+          headers: {},
         },
       ];
     }
@@ -96,6 +92,11 @@ export const UseClientProvider: React.FC = ({children}) => {
       ],
     };
 
+    console.log(
+      contextParams.network,
+      contextParams.daoFactoryAddress,
+      contextParams.graphqlNodes[0]
+    );
     const sdkContext = new SdkContext(contextParams);
 
     setClient(new Client(sdkContext));

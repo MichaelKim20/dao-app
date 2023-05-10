@@ -1,5 +1,5 @@
 import React from 'react';
-import {AvatarDao, ListItemLink} from '@aragon/ui-components';
+import {AvatarDao, ListItemLink} from '@bosagora/ui-components';
 import {Controller, useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';
 
@@ -10,7 +10,7 @@ import {useNetwork} from 'context/network';
 const DaoMetadata: React.FC = () => {
   const {control, getValues} = useFormContext();
   const {setStep} = useFormStep();
-  const {isL2Network} = useNetwork();
+  const {isL2Network, isBOSagoraNetwork} = useNetwork();
   const {t} = useTranslation();
   const {daoLogo, daoName, daoEnsName, daoSummary, links, reviewCheckError} =
     getValues();
@@ -48,7 +48,7 @@ const DaoMetadata: React.FC = () => {
             <Dt>{t('labels.daoName')}</Dt>
             <Dd>{daoName}</Dd>
           </Dl>
-          {!isL2Network && (
+          {!isL2Network && !isBOSagoraNetwork && (
             <Dl>
               <Dt>{t('labels.daoEnsName')}</Dt>
               <Dd>{`${daoEnsName}.dao.eth`}</Dd>

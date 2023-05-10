@@ -4,7 +4,7 @@ import {
   // IconChevronDown,
   // ListItemAction,
   ListItemBlockchain,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import React, {useState} from 'react';
 import {Controller, useFormContext} from 'react-hook-form';
 import {useTranslation} from 'react-i18next';
@@ -194,15 +194,13 @@ type SelectableNetworks = Record<
 
 const networks: SelectableNetworks = {
   main: {
-    cost: ['polygon', 'ethereum'],
-    // cost: ['polygon', 'arbitrum', 'ethereum'],
-    popularity: ['polygon', 'ethereum', 'arbitrum'],
-    security: ['ethereum', 'arbitrum', 'polygon'],
+    cost: ['mainnet'],
+    popularity: ['mainnet'],
+    security: ['mainnet'],
   },
   test: {
-    cost: ['mumbai', 'goerli'],
-    // cost: ['mumbai', 'arbitrum-test', 'goerli'],
-    popularity: ['mumbai', 'goerli', 'arbitrum-test'],
-    security: ['goerli', 'arbitrum-test', 'mumbai'],
+    cost: ['testnet'],
+    popularity: ['testnet'],
+    security: ['testnet'],
   },
 };

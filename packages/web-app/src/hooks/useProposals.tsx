@@ -5,7 +5,7 @@ import {
   ProposalStatus,
   SortDirection,
   TokenVotingProposal,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import {useCallback, useEffect, useState} from 'react';
 
 import {

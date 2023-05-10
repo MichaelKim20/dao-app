@@ -1,8 +1,8 @@
 {
-  "name": "@aragon/apps",
+  "name": "@bosagora/apps",
   "version": "0.1.0",
-  "description": "Aragon DAO Clients",
-  "repository": "https://github.com/aragon/apps",
+  "description": "BOSagora DAO Clients",
+  "repository": "https://github.com/aragon/dao-apps",
   "author": "Aragon Association",
   "license": "MIT",
   "private": true,

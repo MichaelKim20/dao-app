@@ -7,14 +7,14 @@ import {
   IconCopy,
   IconSwitch,
   IconTurnOff,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 import {useGlobalModalContext} from 'context/globalModals';
 import styled from 'styled-components';
 import {useTranslation} from 'react-i18next';
 
 import {useWallet} from 'hooks/useWallet';
 import ModalBottomSheetSwitcher from 'components/modalBottomSheetSwitcher';
-import {shortenAddress} from '@aragon/ui-components/src/utils/addresses';
+import {shortenAddress} from '@bosagora/ui-components/src/utils/addresses';
 import {handleClipboardActions} from 'utils/library';
 import useScreen from 'hooks/useScreen';
 import {CHAIN_METADATA} from 'utils/constants';

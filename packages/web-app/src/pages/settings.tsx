@@ -9,8 +9,8 @@ import {
   ButtonText,
   IconGovernance,
   ListItemLink,
-} from '@aragon/ui-components';
-import {DaoDetails} from '@aragon/sdk-client';
+} from '@bosagora/ui-components';
+import {DaoDetails} from '@bosagora/sdk-client';
 
 import MajorityVotingSettings from 'containers/settings/majorityVoting';
 import MultisigSettings from 'containers/settings/multisig';
@@ -27,7 +27,7 @@ import {CHAIN_METADATA} from 'utils/constants';
 
 const Settings: React.FC = () => {
   const {t} = useTranslation();
-  const {network, isL2Network} = useNetwork();
+  const {network, isL2Network, isBOSagoraNetwork} = useNetwork();
   const navigate = useNavigate();
 
   const {data: daoId, isLoading: isDaoParamLoading} = useDaoParam();
@@ -82,7 +82,7 @@ const Settings: React.FC = () => {
             <Dt>{t('labels.daoName')}</Dt>
             <Dd>{daoDetails?.metadata.name}</Dd>
           </Dl>
-          {!isL2Network && (
+          {!isL2Network && !isBOSagoraNetwork && (
             <Dl>
               <Dt>{t('labels.ens')}</Dt>
               <Dd>{daoDetails?.ensDomain}</Dd>

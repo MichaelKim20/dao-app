@@ -3,7 +3,7 @@ import {
   ButtonWallet,
   ButtonText,
   IconFeedback,
-} from '@aragon/ui-components';
+} from '@bosagora/ui-components';
 
 import NavLinks from 'components/navLinks';
 import React, {useMemo} from 'react';

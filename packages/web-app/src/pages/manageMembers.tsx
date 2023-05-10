@@ -1,4 +1,4 @@
-import {MultisigVotingSettings} from '@aragon/sdk-client';
+import {MultisigVotingSettings} from '@bosagora/sdk-client';
 import {withTransaction} from '@elastic/apm-rum-react';
 import React, {useCallback, useState} from 'react';
 import {

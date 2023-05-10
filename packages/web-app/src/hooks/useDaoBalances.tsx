@@ -1,5 +1,5 @@
-import {AssetBalance} from '@aragon/sdk-client';
-import {DaoBalancesQueryParams} from '@aragon/sdk-client/dist/interfaces';
+import {AssetBalance} from '@bosagora/sdk-client';
+import {DaoBalancesQueryParams} from '@bosagora/sdk-client/dist/interfaces';
 import {useEffect, useState} from 'react';
 
 import {HookData} from 'utils/types';

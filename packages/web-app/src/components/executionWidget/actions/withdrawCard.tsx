@@ -1,4 +1,4 @@
-import {CardTransfer, CardToken} from '@aragon/ui-components';
+import {CardTransfer, CardToken} from '@bosagora/ui-components';
 import {AccordionMethod} from 'components/accordionMethod';
 import React from 'react';
 import {useTranslation} from 'react-i18next';

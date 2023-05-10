@@ -3,7 +3,7 @@ import {constants} from 'ethers';
 import {getAddress, hexZeroPad, Interface} from 'ethers/lib/utils';
 import {useEffect, useMemo, useState} from 'react';
 
-import {AssetBalance, TokenType} from '@aragon/sdk-client';
+import {AssetBalance, TokenType} from '@bosagora/sdk-client';
 import {erc20TokenABI} from 'abis/erc20TokenABI';
 import {getAlchemyProvider, useProviders} from 'context/providers';
 import {useWallet} from 'hooks/useWallet';

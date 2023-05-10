@@ -42,7 +42,7 @@
     "mintTokens": "Mint Tokens",
     "seeAllHolders": "See All Holders",
     "seeCommunity": "See Community",
-    "aragonCore": "Aragon Core",
+    "aragonCore": "BOSagora Core",
     "approvalThreshold": "Approval Threshold",
     "viewTransactions": "View Transactions",
     "logOut": "Log Out",
@@ -364,7 +364,7 @@
     "noAddresses": "No address Found"
   },
   "TransactionModal": {
-    "approveSubtitle": "To sign your first transaction, you must approve Aragon App to make a transaction with your token.",
+    "approveSubtitle": "To sign your first transaction, you must approve BOSagora App to make a transaction with your token.",
     "approveToken": "Approve token",
     "depositTitle": "Sign Deposit",
     "dismiss": "Dismiss",
@@ -492,7 +492,7 @@
       "tokenMembershipSubtitle": "All those who have a token are entitled to participate. 1 token equals 1 vote.",
       "walletMemberShip": "Authorized Wallets",
       "walletMemberShipSubtitle": "Only authorised wallets are entitled to particpiate. 1 Wallet equals 1 vote.",
-      "nameSubtitle": "The full name of the token eg. Aragon",
+      "nameSubtitle": "The full name of the token eg. BOSagora",
       "symbolSubtitle": "The symbol of your token e.g. ANT (good practice is to use 3-4 letters)",
       "addExistingTokenHelptext": "Hinterlege einen bestehenden Token, welcher deine Community für die Governance verwendet. To learn more about what it’s important if you use an existing Token, read first the ",
       "tokenHelptextLink": "Token Distribution Guide",
@@ -609,7 +609,7 @@
   "explore": {
     "hero": {
       "title": "EXPLORE THE DAO WORLD",
-      "subtitle1": "Welcome to the Aragon Explore Portal.",
+      "subtitle1": "Welcome to the BOSagora Explore Portal.",
       "subtitle2": "Take a look to the ecosystem,find inspiration and learn."
     },
     "explorer": {

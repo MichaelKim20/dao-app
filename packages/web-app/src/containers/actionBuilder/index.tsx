@@ -24,7 +24,7 @@ import {useDaoDetails} from 'hooks/useDaoDetails';
 import {usePluginSettings} from 'hooks/usePluginSettings';
 import {PluginTypes} from 'hooks/usePluginClient';
 import {useDaoMembers} from 'hooks/useDaoMembers';
-import {MultisigVotingSettings} from '@aragon/sdk-client';
+import {MultisigVotingSettings} from '@bosagora/sdk-client';
 
 /**
  * This Component is responsible for generating all actions that append to pipeline context (actions)

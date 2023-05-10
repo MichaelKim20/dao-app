@@ -1,4 +1,4 @@
-import {Address} from '@aragon/ui-components/dist/utils/addresses';
+import {Address} from '@bosagora/ui-components/dist/utils/addresses';
 import {ApolloClient} from '@apollo/client';
 
 import {
@@ -206,6 +206,9 @@ function getNativeTokenId(network: SupportedNetworks): string {
     return NATIVE_TOKEN_ID.polygon;
   }
 
+  if (network === 'mainnet' || network === 'testnet') {
+    return NATIVE_TOKEN_ID.bosagora;
+  }
   return NATIVE_TOKEN_ID.default;
 }
 export {fetchTokenMarketData, fetchTokenData, fetchTokenPrice};

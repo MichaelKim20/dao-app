@@ -1,4 +1,4 @@
-import {MultisigVotingSettings, VotingSettings} from '@aragon/sdk-client';
+import {MultisigVotingSettings, VotingSettings} from '@bosagora/sdk-client';
 import React, {useCallback, useEffect, useRef} from 'react';
 import {Outlet} from 'react-router-dom';
 

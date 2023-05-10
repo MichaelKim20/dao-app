@@ -1,4 +1,4 @@
-import {AlertInline} from '@aragon/ui-components';
+import {AlertInline} from '@bosagora/ui-components';
 import {withTransaction} from '@elastic/apm-rum-react';
 import React, {useState} from 'react';
 import {

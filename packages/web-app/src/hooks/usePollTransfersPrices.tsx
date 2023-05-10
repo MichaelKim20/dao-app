@@ -1,5 +1,5 @@
 import {useApolloClient} from '@apollo/client';
-import {TokenType, TransferType} from '@aragon/sdk-client';
+import {TokenType, TransferType} from '@bosagora/sdk-client';
 
 import {useNetwork} from 'context/network';
 import {constants} from 'ethers';

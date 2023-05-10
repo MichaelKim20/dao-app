@@ -1,9 +1,9 @@
 {
-  "name": "@aragon/ui-components",
-  "version": "0.1.3",
-  "description": "Ui components library for Aragon",
+  "name": "@bosagora/ui-components",
+  "version": "0.1.2",
+  "description": "Ui components library for BOSagora",
   "author": "Aragon Association",
-  "repository": "https://github.com/aragon/Zaragoza",
+  "repository": "https://github.com/aragon/dao-apps",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/ui-components.esm.js",

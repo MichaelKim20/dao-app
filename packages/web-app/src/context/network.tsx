@@ -22,12 +22,14 @@ type NetworkContext = {
   network: SupportedNetworks;
   setNetwork: (network: SupportedNetworks) => void;
   isL2Network: boolean;
+  isBOSagoraNetwork: boolean;
 };
 
 const NetworkContext = createContext<NetworkContext>({
-  network: 'ethereum',
+  network: 'testnet',
   setNetwork: () => {},
-  isL2Network: false,
+  isL2Network: true,
+  isBOSagoraNetwork: true,
 });
 
 type NetworkProviderProps = {
@@ -62,7 +64,7 @@ const determineNetwork = (
   }
 
   console.log('*NETWORK defaults to eth');
-  return 'ethereum';
+  return 'testnet';
 };
 
 /**
@@ -93,6 +95,10 @@ export function NetworkProvider({children}: NetworkProviderProps) {
 
   const isL2Network = ['polygon', 'mumbai'].includes(networkState);
 
+  const isBOSagoraNetwork = ['mainnet', 'testnet', 'localhost'].includes(
+    networkState
+  );
+
   const changeNetwork = useCallback(
     (network: SupportedNetworks) => {
       if (networkUrlSegment) {
@@ -118,6 +124,7 @@ export function NetworkProvider({children}: NetworkProviderProps) {
         network: networkState,
         setNetwork: changeNetwork,
         isL2Network,
+        isBOSagoraNetwork,
       }}
     >
       {children}

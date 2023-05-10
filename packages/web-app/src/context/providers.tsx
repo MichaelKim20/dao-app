@@ -9,7 +9,7 @@ import React, {createContext, useContext, useEffect, useState} from 'react';
 import {
   LIVE_CONTRACTS,
   SupportedNetworks as sdkSupportedNetworks,
-} from '@aragon/sdk-client';
+} from '@bosagora/sdk-client';
 import {useWallet} from 'hooks/useWallet';
 import {
   alchemyApiKeys,
@@ -108,7 +108,9 @@ export function getAlchemyProvider(chainId: number): AlchemyProvider | null {
   const apiKey = alchemyApiKeys[network];
   const translatedNetwork = translateToNetworkishName(network);
 
-  return apiKey && translatedNetwork !== 'unsupported'
+  if (apiKey === undefined) return null;
+
+  return translatedNetwork !== 'unsupported'
     ? new AlchemyProvider(translatedNetwork, apiKey)
     : null;
 }
